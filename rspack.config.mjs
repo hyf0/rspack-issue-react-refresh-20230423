@@ -27,6 +27,10 @@ export default {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        type: 'jsx',
+      },
+      {
         test: /\.css$/,
         use: [
           {
